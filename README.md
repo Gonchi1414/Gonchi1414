@@ -1,88 +1,113 @@
-﻿# <h1 align="center">Hola, soy Mauricio Gonzalo Peredo Saracho 👋</h1>
+# <h1 align="center">Hola, soy Mauricio Gonzalo Peredo Saracho 👋</h1>
 
-# <h3 align="center">Desarrollador de Software Full-Stack | Docente Universitario | Ingeniero (SIB)</h3>
+<h3 align="center">
+Desarrollador Full-Stack • Docente Universitario • Ingeniero de Sistemas (SIB)
+</h3>
 
-# 
+<p align="center">
+Apasionado por la arquitectura de software, la ciberseguridad y la investigación aplicada a la privacidad de datos.
+</p>
 
-# <p align="center">
+---
 
-# &#x20; Apasionado por la arquitectura de software, la ciberseguridad, y la formación de la próxima generación de profesionales en TI. Actualmente cursando estudios de posgrado con enfoque en la privacidad de datos.
+## 🚀 Sobre mí
 
-# </p>
+* 🎓 **Docente Universitario** en áreas de desarrollo de software, redes y fundamentos de TI.
+* 🔬 **Investigador de Posgrado**, desarrollando una tesis sobre:
 
-# 
+  * Soberanía de datos
+  * Privacidad Diferencial
+  * Aprendizaje Federado
+  * Entrenamiento seguro de LLMs
+* 🌱 Actualmente construyendo:
 
-# \---
+  * Plataforma web de educación inclusiva.
+  * Integraciones de facturación electrónica para sistemas de gestión.
+* 🛡️ Interesado en:
 
-# 
+  * Auditoría de redes
+  * OSINT
+  * Gestión de vulnerabilidades
+  * CVSS v4.0
+  * Seguridad ofensiva y defensiva
 
-# \## 👨‍💻 Sobre mí
+---
 
-# 
+## 💼 Áreas de Enfoque
 
-# \- 🎓 \*\*Docencia:\*\* Imparto clases universitarias compartiendo conocimientos sobre redes, desarrollo y fundamentos de TI.
+| Área                                | Enfoque |
+| ----------------------------------- | ------- |
+| 💻 Desarrollo Full-Stack            | 45%     |
+| 🎓 Docencia y Mentoría              | 30%     |
+| 🔬 Investigación en IA y Privacidad | 15%     |
+| 🛡️ Ciberseguridad y Auditoría      | 10%     |
 
-# \- 🔭 \*\*Investigación Actual:\*\* Desarrollando una tesis de posgrado sobre soberanía de datos y preservación de privacidad en el entrenamiento de LLMs (utilizando Privacidad Diferencial y Aprendizaje Federado).
+---
 
-# \- 🌱 \*\*Proyectos Activos:\*\* Construyendo una plataforma web de educación inclusiva, además de desarrollar integraciones tecnológicas de facturación para sistemas de gestión.
+## 🛠️ Stack Tecnológico
 
-# \- 🛡️ \*\*Intereses Técnicos:\*\* Auditoría de redes, OSINT y análisis de vulnerabilidades (CVSS v4.0).
+### Frontend
 
-# 
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge\&logo=react\&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge\&logo=typescript\&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge\&logo=tailwind-css\&logoColor=white)
 
-# \---
+### Backend
 
-# 
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge\&logo=node.js\&logoColor=white)
+![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge\&logo=nestjs\&logoColor=white)
+![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge\&logo=laravel\&logoColor=white)
+![CSharp](https://img.shields.io/badge/C%23-68217A?style=for-the-badge\&logo=c-sharp\&logoColor=white)
+![GraphQL](https://img.shields.io/badge/GraphQL-E10098?style=for-the-badge\&logo=graphql\&logoColor=white)
 
-# \## 🧠 Áreas de Enfoque Profesional
+### Bases de Datos
 
-# 
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge\&logo=postgresql\&logoColor=white)
 
-# ```mermaid
+### DevOps & Automatización
 
-# pie title Distribución de Roles y Enfoque
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge\&logo=docker\&logoColor=white)
+![n8n](https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge\&logo=n8n\&logoColor=white)
+![Laragon](https://img.shields.io/badge/Laragon-0E83CD?style=for-the-badge)
 
-# &#x20;   "Desarrollo de Software" : 45
+---
 
-# &#x20;   "Docencia y Mentoría" : 30
+## 🧠 Arquitectura de Trabajo
 
-# &#x20;   "Investigación Académica (LLMs)" : 15
+```mermaid
+flowchart LR
 
-# &#x20;   "Auditoría y Ciberseguridad" : 10
-graph TD;
-    %% Definición de Estilos
-    classDef frontend fill:#61DAFB,stroke:#333,stroke-width:2px,color:#000;
-    classDef backend fill:#339933,stroke:#333,stroke-width:2px,color:#fff;
-    classDef db fill:#336791,stroke:#333,stroke-width:2px,color:#fff;
-    classDef tools fill:#FF9900,stroke:#333,stroke-width:2px,color:#000;
+A[Frontend<br>React + TypeScript + Tailwind]
+--> B[Backend APIs<br>NestJS · Laravel · C#]
 
-    %% Nodos
-    subgraph Frontend
-        A(React):::frontend
-        B(TypeScript):::frontend
-        C(TailwindCSS):::frontend
-    end
+B --> C[(PostgreSQL)]
 
-    subgraph Backend & APIs
-        D(Node.js / NestJS):::backend
-        E(Laravel):::backend
-        F(C# / Windows Forms):::backend
-        G(GraphQL):::backend
-    end
+D[Docker]
+--> B
 
-    subgraph Bases de Datos
-        H[(PostgreSQL)]:::db
-    end
+E[n8n]
+--> B
 
-    subgraph DevOps, Entornos & Automatización
-        I(Docker):::tools
-        J(Laragon):::tools
-        K(n8n):::tools
-    end
+D --> A
+```
 
-    %% Conexiones
-    Frontend ==> Backend & APIs
-    Backend & APIs ==> Bases de Datos
-    DevOps, Entornos & Automatización -.-> Frontend
-    DevOps, Entornos & Automatización -.-> Backend & APIs
+---
 
+## 🎯 Líneas de Investigación
+
+* Privacidad diferencial aplicada a LLMs.
+* Aprendizaje federado para entornos distribuidos.
+* Soberanía y gobernanza de datos.
+* Seguridad en arquitecturas de IA.
+* Evaluación de riesgos mediante CVSS v4.0.
+
+---
+
+## 📫 Contacto
+
+* 💼 LinkedIn: [*mauricio-gonzalo-peredo-saracho*](https://www.linkedin.com/in/mauricio-gonzalo-peredo-saracho/)
+* 📧 Correo: 	mauriciogonzaloperedo28@gmail.com
+
+---
+
+> "La tecnología tiene mayor impacto cuando se construye con seguridad, ética y propósito."
